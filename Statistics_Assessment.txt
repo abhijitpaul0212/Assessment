@@ -1,0 +1,47 @@
+Question1:
+
+Six-Sigma:
+1. In statistics, Si Sigma is a statistical measurement of how far a process deviates from perfection.
+2. Six-Sigma has a failure rate of 0.00034% only i.e. 3.4 errors per one million events, alternatively we can say that 99.99966 % of success rate.
+3. Our main aim is to decrease the process variation in order to increase your process sigma resulting in greater customer satisfaction.
+
+E.g.:
+For example, let's say a company manufactures one million car engines in a month. According to the Six Sigma standard, it should produce only 3.4 defective engines within that month. If the actual number of defective engines produced is higher than 3.4, it indicates that the process is not performing at the Six Sigma level and needs improvement to reduce defects and increase efficiency.
+
+Question 2:
+numerical data with symmetrical and balanced around the mean
+Log-normal or Gaussian distributions are mostly used for continous distribution.
+So, there are several types of data which can not follow it, such as 
+- Categorical data: Suppose you have data on the type of fruits sold in a grocery store. The categories could be "Apples," "Oranges," "Bananas," etc.
+- Count data: Consider the number of customers entering a store in each hour. You count the number of customers in each hour, resulting in count data.
+- Ordinal data: Suppose you survey individuals and ask them to rate their satisfaction on a scale from 1 to 5, where 1 represents "Very Dissatisfied" and 5 represents "Very Satisfied." 
+
+Question3:
+The five-number summary is a descriptive statistics technique used to summarize the distribution of a dataset.
+
+It consists of
+
+1. Minimum: The smallest value in the dataset.
+2. First Quartile (Q1): The value below which 25% of the data falls. It is also the 25th percentile of the dataset.
+3. Median (Q2): The middle value of the dataset when it is sorted in ascending order. It represents the value below which 50% of the data falls. 
+4. Third Quartile (Q3): The value below which 75% of the data falls. It is also the 75th percentile of the dataset.
+5. Maximum: The largest value in the dataset.
+
+The five-number summary is often used to create box plots, which visually display the distribution of the data and identify any outliers.
+
+Example: [ 2, 3, 4, 5, 5, 6, 6, 7, 8, 9, 10]
+
+Five-number summary:
+1. Minimum: 2
+2. Q1 (First Quartile): 4
+3. Median: 6
+4. Q3 (Third Quartile): 8
+5. Maximum: 10
+
+Question4:
+* Correlation is a statistical measure that describes the strength and direction of a relationship between two variables. 
+* It indicates how much and in what direction two variables change together. 
+* It helps us understand the relationship between two variables by quantifying the strength and direction of their association.
+* The correlation coefficient ranges from -1 to 1.
+	- Positive correlation: When the values of one variable increase, the values of the other variable also tend to increase.
+	- Negative correlation: When the values of one variable increase, the values of the other variable tend to decrease.

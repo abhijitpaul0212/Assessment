@@ -1,0 +1,38 @@
+Question1: 
+
+id   name
+1   John Doe
+4	Bobby Louis
+5	Lisa Romero
+
+Issue with "SELECT * FROM runners WHERE id NOT IN (SELECT winner_id FROM races)", is that it may not handle NULL values in the winner_id column of the races table correctly. 
+
+Alternate query can be using JOINs:
+
+SELECT r.*
+FROM runners r
+LEFT JOIN races ra ON r.id = ra.winner_id
+WHERE ra.winner_id IS NULL;
+
+Question2:
+
+SELECT ta.*
+FROM test_a ta
+LEFT JOIN test_b tb ON ta.id = tb.id
+WHERE tb.id IS NULL;
+
+Question 3:
+
+SELECT u.username, COUNT(*) AS num_lessons_taken
+FROM users u
+INNER JOIN training_details t ON(u.user_id = t.user_id)
+GROUP BY u.username, t.traning_date
+HAVING COUNT(*) > 1
+ORDER BY t.traning_date DESC
+
+Question 4:
+
+SELECT e.Manager_Id, e.Emp_name as Manager, avg(e1.salary as Average_Salary_Under_Manager
+FROM employee e
+INNER JOIN employee e1 ON e.Emp_Id = e1.Manager_Id
+GROUP BY e1.Manager_Id
